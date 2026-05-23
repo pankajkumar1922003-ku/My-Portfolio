@@ -253,7 +253,7 @@ function Intro() {
                             </button>
                         </Link>
 
-                        <a href="public/Pankaj_Resume.pdf" download>
+                        <a href="/Pankaj_Resume.pdf" download>
                             <button className="rounded-full border border-cyan-400/30 bg-white/5 px-6 sm:px-8 py-4 font-semibold text-cyan-300 backdrop-blur-md transition-all duration-300 hover:border-cyan-400 hover:bg-cyan-400/10 hover:text-white cursor-pointer whitespace-nowrap">
                                 Download CV
                             </button>
