@@ -34,7 +34,7 @@ function SocialLink({ href, icon: Icon, label, accent }) {
       onMouseLeave={() => setHovered(false)}
       whileHover={{ y: -4, scale: 1.08 }}
       whileTap={{ scale: 0.95 }}
-      className="relative flex items-center gap-3 px-5 py-3 rounded-xl border border-white/10 bg-white/[0.04] text-gray-300 overflow-hidden transition-colors"
+      className="relative flex items-center gap-3 px-5 py-3 rounded-xl border border-white/10 bg-white/4 text-gray-300 overflow-hidden transition-colors"
       style={{ color: hovered ? accent : undefined }}
     >
       <motion.div
@@ -60,7 +60,7 @@ function SocialLink({ href, icon: Icon, label, accent }) {
       <span className="relative z-10 text-sm font-semibold tracking-wide">{label}</span>
       {/* bottom accent line */}
       <motion.div
-        className="absolute bottom-0 left-0 h-[2px] rounded-full"
+        className="absolute bottom-0 left-0 h-0.5 rounded-full"
         style={{ background: `linear-gradient(90deg, ${accent}, transparent)` }}
         animate={{ width: hovered ? "100%" : "0%" }}
         transition={{ duration: 0.4, ease: [0.22, 1, 0.36, 1] }}
